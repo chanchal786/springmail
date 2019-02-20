@@ -10,6 +10,10 @@ public class IndexController {
 	@RequestMapping("/")
 	public String userForm(Model model) {
 		System.out.println("Hi Controller");
-		return "default";
+		return "home";
 	}
+	/*@RequestMapping("form")
+	public String form(Model model) {
+		return "form";
+	}*/
 }
